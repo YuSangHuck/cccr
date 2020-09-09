@@ -1,0 +1,110 @@
+[
+    {
+        "Id": "sha256:a6ea92c35c43206ac8a508b2be7d6d6b5ecf5f40e7a9042a35669bcbcb2da201",
+        "RepoTags": [
+            "httpd:latest"
+        ],
+        "RepoDigests": [
+            "httpd@sha256:3cbdff4bc16681541885ccf1524a532afa28d2a6578ab7c2d5154a7abc182379"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2020-08-05T23:21:59.795428609Z",
+        "Container": "a88a031a586c2888bfb2fc52c8a952817aa622de7e20cd6f274f26d03f978ead",
+        "ContainerConfig": {
+            "Hostname": "a88a031a586c",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/apache2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "HTTPD_PREFIX=/usr/local/apache2",
+                "HTTPD_VERSION=2.4.46",
+                "HTTPD_SHA256=740eddf6e1c641992b22359cabc66e6325868c3c5e2e3f98faf349b61ecf41ea",
+                "HTTPD_PATCHES="
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"httpd-foreground\"]"
+            ],
+            "ArgsEscaped": true,
+            "Image": "sha256:bb2dacfa9b4ee8973ddaebba5c11bdb95bcb99b85499c909e0899323b4ca5219",
+            "Volumes": null,
+            "WorkingDir": "/usr/local/apache2",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {},
+            "StopSignal": "SIGWINCH"
+        },
+        "DockerVersion": "18.09.7",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/apache2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "HTTPD_PREFIX=/usr/local/apache2",
+                "HTTPD_VERSION=2.4.46",
+                "HTTPD_SHA256=740eddf6e1c641992b22359cabc66e6325868c3c5e2e3f98faf349b61ecf41ea",
+                "HTTPD_PATCHES="
+            ],
+            "Cmd": [
+                "httpd-foreground"
+            ],
+            "ArgsEscaped": true,
+            "Image": "sha256:bb2dacfa9b4ee8973ddaebba5c11bdb95bcb99b85499c909e0899323b4ca5219",
+            "Volumes": null,
+            "WorkingDir": "/usr/local/apache2",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null,
+            "StopSignal": "SIGWINCH"
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 165547282,
+        "VirtualSize": 165547282,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/4a7b046d9f7ad9b3cd8ab2f57399108747bbae0a307deadbfe8b536dfe34c336/diff:/var/lib/docker/overlay2/5f7f3dd23ebf4aecbc86332bb206a2b0323093570cda60a0e86cdfcb5184d0ff/diff:/var/lib/docker/overlay2/37ed160702397088f1469282627d538ec5e5775c4b8736f0801318887839fdc1/diff:/var/lib/docker/overlay2/2da1e620c91c154c76d96aabf48bef058b6a17df9b489d144b8585f243cd6b4f/diff",
+                "MergedDir": "/var/lib/docker/overlay2/5208024e6423041dd1178821f9581506e74f2a0ca98b68dbcb6cbdf733a2535b/merged",
+                "UpperDir": "/var/lib/docker/overlay2/5208024e6423041dd1178821f9581506e74f2a0ca98b68dbcb6cbdf733a2535b/diff",
+                "WorkDir": "/var/lib/docker/overlay2/5208024e6423041dd1178821f9581506e74f2a0ca98b68dbcb6cbdf733a2535b/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:d0f104dc0a1f9c744b65b23b3fd4d4d3236b4656e67f776fe13f8ad8423b955c",
+                "sha256:c865989f86f7664a3ea0574f65b5a53822673d8dc246830b5a4017ed4f5c0022",
+                "sha256:3ba8a4f66ba2e80ddd029ed0d36ff3609968cc78ab6fc801742b96fba019d916",
+                "sha256:843c3701e6221c43cbd86dbe4f38de8cc172c56654a4096da531258408989048",
+                "sha256:88b680b1fdfcc61598563dceba6638a7eb4f436d6ba5c51e54f3bc3bd12ab499"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]

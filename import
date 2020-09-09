@@ -1,0 +1,74 @@
+[
+    {
+        "Id": "sha256:e01a311b96705b03667426ba3996be2f5d180513901f75307b9abcedc177bcdf",
+        "RepoTags": [
+            "turtlog/cccr:import"
+        ],
+        "RepoDigests": [],
+        "Parent": "",
+        "Comment": "Imported from -",
+        "Created": "2020-09-09T04:14:22.088000066Z",
+        "Container": "",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "19.03.12",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 162191159,
+        "VirtualSize": 162191159,
+        "GraphDriver": {
+            "Data": {
+                "MergedDir": "/var/lib/docker/overlay2/f690fbcbf306314c4be53b03c4ca81f2a6df65698ea0d87f09aea1f9c43c4c55/merged",
+                "UpperDir": "/var/lib/docker/overlay2/f690fbcbf306314c4be53b03c4ca81f2a6df65698ea0d87f09aea1f9c43c4c55/diff",
+                "WorkDir": "/var/lib/docker/overlay2/f690fbcbf306314c4be53b03c4ca81f2a6df65698ea0d87f09aea1f9c43c4c55/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:1c7390598661222fd0b070f5f768d35fdf0d63c0ffe0cae216c1b13c3cadb67e"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2020-09-09T13:14:22.093850351+09:00"
+        }
+    }
+]
